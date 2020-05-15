@@ -1,0 +1,5 @@
+*from this we can observe that whenever the image has low contrast but does not occupy all the pixel ranges, histogram stretching works very well.
+* when image has low contrast but it has some pixels for all brightness values, the histogram stretching does not work very well. In these cases Histogram Equalization works very well. In such a case histogram equalization works such a way that image loses its natural feel.
+*Histogram Equalization seems to add to the noise, Stretching Doesn't.
+
+I_final = [alpha*I] + [beta*I_eq] + [gamma*I_stretched]

@@ -1,0 +1,11 @@
+Things to Look for in Project:
+	* Adaptive Histogram Equalization
+	* Adaptive Contrast Stretching
+	* That method proposed in paper
+	* noise reduction by median filter
+
+Things already done:
+	*Histogram Equalization for b/w images
+	*Adjustment by Alpha
+	*For Couloured images by converting to HSV colorspace
+	*Basic contrast stretching(2 algorithms done yet).
